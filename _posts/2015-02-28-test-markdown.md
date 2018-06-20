@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+title: Testing more stuff
 tags: [test]
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+The formats being tested in this post use [markdown](http://markdowntutorial.com/).  So far I learned how to convert text into links, bold, and italic. I also test how to add headings, tables, code excerpts, boxes, and images. 
 
 **Here is some bold text**
 
@@ -15,43 +12,43 @@ You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll w
 
 Here's a useless table:
 
-| Number | Next number | Previous number |
+| table h1 | table h2 | table h3 |
 | :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| e1 | e2 | e3 |
+| e4 | e5 | e6 |
+| e7 | e8 | e9 |
+| e10 | e11 | e12 |
 
 
-How about a yummy crepe?
+Here's a random image
 
-![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![BlackHole](/img/blackhole.jpg)
 
 Here's a code chunk:
 
 ~~~
-var foo = function(x) {
+def function(x) {
   return(x + 5);
 }
-foo(3)
+function(3)
 ~~~
 
 And here is the same code with syntax highlighting:
 
-```javascript
-var foo = function(x) {
+```python
+def function(x) {
   return(x + 5);
 }
-foo(3)
+function(3)
 ```
 
 And here is the same code yet again but with line numbers:
 
-{% highlight javascript linenos %}
-var foo = function(x) {
+{% highlight python linenos %}
+def function(x) {
   return(x + 5);
 }
-foo(3)
+function(3)
 {% endhighlight %}
 
 ## Boxes
