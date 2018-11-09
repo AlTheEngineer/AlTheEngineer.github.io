@@ -60,7 +60,7 @@ def gelu(x):
 ```
 And here are visualizations of the GELU activation and it's derivative:
 
-   ![GELU](/gelu_images/gelu_viz.png)
+   ![GELU](/gelu_imgs/gelu_viz-1.png)
 
 {: .box-note}
 **Note:** Project code can be accessed here: <https://github.com/AlTheEngineer/Deep-Learning-Fundamentals>
