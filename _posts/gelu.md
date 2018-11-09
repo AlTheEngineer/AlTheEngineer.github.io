@@ -81,6 +81,8 @@ where $m$ is batch size and $n$ number of input features. This essentially means
 feature is a random variable of the normal distribution with a mean of zero and a standard deviation of one. This 
 can be visualized using the probability density function (pdf) of the distribution, as such:
 
+   ![GAUSS](/gelu_imgs/gauss_pdf.png)
+
 We now want to apply a zero-or-identity mapping to $X_{ij}$, similar to ReLU but in a stochastic (random) way. We would also
 like larger values of $X_{ij}$ to have a higher probability of being perserved (i.e. not being dropped). We can do 
 this by using by defining the following:
@@ -95,6 +97,8 @@ However for continuous distributions like the Gaussian distribution, we compute 
 $$ \phi(x_{ij}) = \int_{-\infty}^{x_{ij}} \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}t^{2}}dt$$
 
 where $\phi(x_{ij})$ is known as the cumulative distribution function (cdf) and is shown in the figure below:
+
+   ![CDF](/gelu_imgs/gauss_cdf.png)
 
 As a conceptual aid, $\phi(x_{ij})$ is equal to the area under the pdf curve to the left of $x_{ij}$. Here is 
 a visualisation for different values of $x_{ij}$:
