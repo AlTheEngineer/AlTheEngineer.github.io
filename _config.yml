@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Bioprocess Engineering: "bioeng"
   Drug Discovery: "drugdiscovery"
-  Data Science: "ml"
+  #Data Science: "ml"
   Resources:
     - SELEXIM: "https://github.com/AlTheEngineer/SELEXim_v0.2"
   
