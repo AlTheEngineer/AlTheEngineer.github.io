@@ -24,11 +24,8 @@ description: Here I plan on documenting my most recent work and making tutorial 
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Bioprocess Engineering: "bioeng"
-  Drug Discovery: "drugdiscovery"
-  #Data Science: "ml"
-  Resources:
-    - SELEXIM: "https://github.com/AlTheEngineer/SELEXim_v0.2"
+  Bio Engineering: "bioeng"
+  Data Science: "ml"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -73,7 +70,7 @@ author:
 social-network-links:
 # rss: true
   email: "al.a.latif.94@gmail.com"
-  github: "AlTheEngineer"
+  github: "AlaaALatif"
   twitter: "alaa_a_latif"
 #  reddit: yourname
 #  google-plus: +DeanAttali
