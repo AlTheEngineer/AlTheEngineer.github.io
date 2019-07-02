@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Welcome to my Website!
+title: Alaa A Latif
 
 # Short description of your site
 description: Here I plan on documenting my most recent work and making tutorial on cool concepts that I've learned.
@@ -74,7 +74,7 @@ social-network-links:
 # rss: true
   email: "al.a.latif.94@gmail.com"
   github: "AlTheEngineer"
-  twitter: "Al2994"
+  twitter: "alaa_a_latif"
 #  reddit: yourname
 #  google-plus: +DeanAttali
   linkedin: "alaaalatif"
